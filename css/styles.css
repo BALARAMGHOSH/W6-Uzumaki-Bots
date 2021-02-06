@@ -1,0 +1,167 @@
+body {
+    font-family: "Montserrat";
+    font-weight: 200;
+  }
+
+  #title {
+    color: #fff;
+    background-color: #023436;
+  }
+
+  #features {
+    padding: 100px 100px;
+    text-align: center;
+    margin-right: 80px;
+    background-color: #fff;
+    position: relative;
+  }
+
+  .title-img {
+    width: 60%;
+    position: absolute;
+    right: 4%;
+    bottom: 0.5%;
+
+  }
+
+  h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+  }
+
+  .container-fluid {
+    padding: 3% 15% 7%;
+  }
+
+  .navbar {
+    padding: 0 0 90px;
+  }
+
+  .navbar-brand {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+
+  .nav-item {
+    padding: 0 18px;
+  }
+
+  .nav-link {
+    font-weight: lighter;
+  }
+
+  .down-btn {
+    margin: 30px 20px 20px 0;
+  }
+
+  .ft {
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+
+  .icon {
+    color: #00BFB3;
+    margin-bottom: 1rem;
+  }
+
+  .icon:hover {
+    color: #023436;
+  }
+
+  .stacks {
+    color: #8f8f8f;
+
+    color: black;
+  }
+
+  #testimonials {
+    text-align: center;
+    font-family: "Montserrat";
+    background-color: #00BFB3;
+    color: #fff;
+  }
+
+  .carousel-item {
+    padding: 7% 15%;
+  }
+
+  h2 {
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+
+  .testimonial-img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+  }
+
+.merits{
+  color: #8f8f8f;
+}
+
+
+  /* Tech Stack section*/
+
+  #tech-stack {
+    padding: 100px;
+    text-align: center;
+  }
+
+  .price-column {
+    padding: 3% 2%;
+  }
+
+
+
+.tech-heading{
+  font-size: 2rem;
+  color: #8f8f8f;
+}
+
+  @media (max-width:1028px) {
+    #title {
+      text-align: center;
+    }
+
+  }
+
+
+  /* Call to Action */
+
+  #cta{
+  background-color: #023436;
+  text-align: center;
+  font-family: "Montserrat";
+  padding: 5% 17%;
+  }
+
+  .finish{
+    font-weight: 900;
+    color: #fff;
+    font-size: 3.5rem;
+    line-height: 1.5;
+  }
+
+
+  /* footer */
+
+  #footer{
+    background-color: #fff;
+    padding: 7% 17%;
+    text-align: center;
+  }
+
+  .smedia{
+    margin: 4px;
+    margin-bottom: 13px;
+  }
+
+  .smedia:hover{
+    color: #00BFB3;
+  }
