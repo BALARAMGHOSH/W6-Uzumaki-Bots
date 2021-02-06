@@ -5,7 +5,7 @@ body {
 
   #title {
     color: #fff;
-    background-color: #ff4c68;
+    background-color: #023436;
   }
 
   #features {
@@ -18,9 +18,10 @@ body {
 
   .title-img {
     width: 60%;
-    transform: rotate(25deg);
     position: absolute;
-    right: 30%;
+    right: 4%;
+    bottom: 0.5%;
+
   }
 
   h1 {
@@ -63,22 +64,24 @@ body {
   }
 
   .icon {
-    color: #ef8172;
+    color: #00BFB3;
     margin-bottom: 1rem;
   }
 
   .icon:hover {
-    color: #ff4c68;
+    color: #023436;
   }
 
-  p {
+  .stacks {
     color: #8f8f8f;
+
+    color: black;
   }
 
   #testimonials {
     text-align: center;
     font-family: "Montserrat";
-    background-color: #ef8172;
+    background-color: #00BFB3;
     color: #fff;
   }
 
@@ -98,20 +101,14 @@ body {
     margin: 20px;
   }
 
-  #press {
-    background-color: #ef8172;
-    text-align: center;
-    padding-bottom: 3%;
-  }
+.merits{
+  color: #8f8f8f;
+}
 
-  .press-logo {
-    width: 15%;
-    margin: 20px 20px 40px;
-  }
 
-  /* Tech Stack*/
+  /* Tech Stack section*/
 
-  #pricing {
+  #tech-stack {
     padding: 100px;
     text-align: center;
   }
@@ -120,27 +117,25 @@ body {
     padding: 3% 2%;
   }
 
-  .dog-name{
-    font-weight: bold;
-  }
 
+
+.tech-heading{
+  font-size: 2rem;
+  color: #8f8f8f;
+}
 
   @media (max-width:1028px) {
     #title {
       text-align: center;
     }
 
-    .title-img {
-      position: static;
-      transform: rotate(0);
-    }
   }
 
 
   /* Call to Action */
 
   #cta{
-  background-color: #ff4c68;
+  background-color: #023436;
   text-align: center;
   font-family: "Montserrat";
   padding: 5% 17%;
@@ -168,5 +163,5 @@ body {
   }
 
   .smedia:hover{
-    color: #ef8172;
+    color: #00BFB3;
   }
